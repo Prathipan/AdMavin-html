@@ -1,0 +1,198 @@
+body{
+    overflow-x: hidden;
+}
+.container{
+    font-family: sans-serif;
+    width: 100vw;
+}
+nav{
+   background-color:  #f0f4fc;
+}
+
+.nav-center{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.links{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+.small {
+    width: 300px;
+}
+.nav-header{
+    font-family: "Lexend Mega", sans-serif;
+    color: #0084ff;
+    letter-spacing: 2px;
+}
+
+.links > li > a{
+    color: black;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: medium;
+}
+.login-url{
+    margin : 10px;
+    color: #0084ff;
+}
+
+.active{
+    color : #0084ff !important;
+}
+.btn{
+    background-color: #2f5ebd;
+    padding: 12px;
+    border: #2f5ebd;
+    color: white;
+    font-weight: 500;
+}
+.btn-primary{
+    background-color: transparent;
+    padding: 11px;
+    border-color: #2f5ebd ;
+    color : #2f5ebd;
+    font-weight: 500;
+}
+.main{
+    background-color: #f0f4fc;
+    height: 70vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.main-content{
+    max-width: 500px;
+}
+.title{
+    font-family: "Outfit", sans-serif;
+    color: #535353;
+    font-weight: 600;
+    font-size: 40px;
+}
+.content{
+    color: gray;
+    font-size: 15px;
+    line-height: 1.6;
+}
+.table{
+    border: 2px solid #2f5ebd;
+    border-radius: 5px;
+    height: 300px;
+    width: 500px;
+    background-color: #dfe6f5;
+}
+.head{
+    height: 40px;
+    background-color : white;
+    border-radius: 5px 5px 0 0;
+    border-bottom: 2px solid #2f5ebd;
+    display: flex;
+    align-items: center;
+}
+.rounds{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.round{
+    height: 8px;
+    width: 8px;
+    border : 2px solid #2f5ebd;
+    border-radius: 50%;
+    margin: 3px;
+}
+.section1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+.section-title{
+    font-family: "Outfit", sans-serif;
+    color: #535353;
+    font-weight: 600;
+    font-size: 30px;
+}
+.features{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.row{
+    display: flex;
+}
+.feature{
+    max-width: 300px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 13px;
+    color: gray;
+}
+
+.feature-title{
+    font-weight: bold;
+    color: black;
+    font-size: 16px;
+}
+
+.section2{
+    margin: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chart{
+    height: 200px;
+    width: 550px;
+    background-color: #d4e2fd;
+}
+
+.grid-container{
+    margin-left: 30px;
+    display: grid;
+    grid-template-columns: auto auto ;
+}
+
+.grid-para{
+    font-size: 13px;
+}
+.item{
+    margin: 25px;
+}
+
+.section3{
+    background-color: #f0f4fc;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+.section3 div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-title{
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+footer{
+    margin-top: 0;
+    background-color: #404347;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
